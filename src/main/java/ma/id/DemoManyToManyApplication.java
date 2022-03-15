@@ -45,7 +45,7 @@ public class DemoManyToManyApplication {
 				  userService.addRoleToUser("USER", "abdel");
 				  userService.addRoleToUser("ADMIN", "abdelkrim");
 				   
-				  //****************
+				System.out.println("********************************");
 				  try {
 					 User user= userService.athenticated("abdelkrim", "123456");
 					  System.out.println("je me suis bien connecté "+user.getPassword());
